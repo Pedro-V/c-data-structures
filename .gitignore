@@ -1,2 +1,2 @@
 # ignorar config files do vscode
-.vscode
+*.vscode
