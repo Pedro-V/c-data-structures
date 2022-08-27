@@ -23,11 +23,9 @@ somente por letras e números com até 100 caracteres
 
 Realiza a operação de ou-exclusivo ou xor ($⊕$) com os
 valores numéricos ASCII dos caracteres
-$$
-checksum("ufs") = 'u' \oplus 'f' \oplus 's' \newline
-= 117 \oplus 102 \oplus 115 \newline
-= 96
-$$
+```c
+checksum("ufs") = 'u' ^ 'f' ^ 's';
+```
 Probabilidade de duas strings diferentes gerarem o
 mesmo valor numérico é de $1/2^8 ≈ 0,4\%$
 
