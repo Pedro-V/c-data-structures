@@ -21,3 +21,27 @@ interpolada, com informações sobre o livro
 quantidade de vitórias e a média truncada de
 chamadas de cada algoritmo, onde em caso de
 empate a busca interpolada é vencedora
+
+## Exemplo de entrada
+```c
+5
+9780130224187 Niklaus Wirth&Algorithms + Data Structures = Programs
+9780201416077 Gaston Gonnet&Handbook of Algorithms and Data Structures
+9780262033848 Thomas Cormen&Introduction to Algorithms
+9780321751041 Donald Knuth&The Art of Computer Programming
+9781584884354 Dinesh Mehta&Handbook of Data Structures and Applications
+3
+9780130224187
+9781584884354
+1234567890123
+```
+
+## Exemplo de saída
+```c
+[9780130224187]B=2,I=2:Author:Niklaus Wirth,Title:Algorithms + Data Structures = Programs
+[9781584884354]B=3,I=2:Author:Dinesh Mehta,Title:Handbook of Data Structures and Applications
+[1234567890123]B=3,I=2:ISBN_NOT_FOUND
+BINARY=0:2
+INTERPOLATION=3:2
+
+```
