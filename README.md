@@ -6,5 +6,7 @@ Mini-projetos da disciplina de Estruturas de Dados da UFS. Cada mini-projeto se 
 
 ```bash
 gcc -Wall -O3 arquivo.c
-./a.out
+./a.out <arquivo de input> <arquivo de output>
 ```
+
+Cada mini-projeto vem com um arquivo de input mediano (0.2-0.5 GB).
