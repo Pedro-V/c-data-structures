@@ -72,32 +72,6 @@ dupla interpolada(livro* V, uint32_t n, char* isbn_procurado){
 
 FILE* input = NULL, *output = NULL;
 
-/*
-int main(void){
-    livro* arr_livros = malloc(5 * sizeof(livro));
-    strcpy(arr_livros[0].autor, "Niklaus Wirt");
-    strcpy(arr_livros[0].isbn, "9780130224187");
-    strcpy(arr_livros[0].titulo,"Algorithms + Data Structures = Programs");
-    strcpy(arr_livros[1].autor, "Gaston Gonnet");
-    strcpy(arr_livros[1].isbn, "9780201416077");
-    strcpy(arr_livros[1].titulo,"Handbook of Algorithms and Data Structures");
-    strcpy(arr_livros[2].isbn, "9780262033848");
-    strcpy(arr_livros[2].autor, "Thomas Cormen");
-    strcpy(arr_livros[2].titulo, "Introduction to Algorithms");
-    strcpy(arr_livros[3].autor, "Donald Knuth");
-    strcpy(arr_livros[3].isbn, "9780321751041");
-    strcpy(arr_livros[3].titulo, "The Art of Computer Programming");
-    strcpy(arr_livros[4].autor, "Dinesh Mehta");
-    strcpy(arr_livros[4].titulo, "Handbook of Data Structures and Applications");
-    strcpy(arr_livros[4].isbn, "9781584884354");
-
-    dupla resultado_bin = binaria(arr_livros, 5, 0, "9780130224187");
-    dupla resultado_int = interpolada(arr_livros, 5, "9780130224187");
-    printf("%d %d\n", resultado_bin.chamadas, resultado_bin.indice);
-    printf("%d %d\n", resultado_int.chamadas, resultado_int.indice);
-}
-*/
-
 // retorna 0 se a binária tiver vencido, 1 se a interpolada
 int quem_ganhou(int chamadas_binaria, int chamadas_interpolada){
     int result = (chamadas_interpolada <= chamadas_binaria) ? 1 : 0;
