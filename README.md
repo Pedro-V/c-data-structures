@@ -10,5 +10,3 @@ gcc -Wall -O3 arquivo.c
 ```
 
 Cada mini-projeto vem com um arquivo de input mediano (0.2-0.5 GB).
-
-
