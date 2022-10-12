@@ -43,5 +43,4 @@ empate a busca interpolada é vencedora
 [1234567890123]B=3,I=2:ISBN_NOT_FOUND
 BINARY=0:2
 INTERPOLATION=3:2
-
 ```
