@@ -1,4 +1,4 @@
 # ignorar config files do vscode
 *.vscode
 # ignorar todos os binarios
-*.o*
+*.out
