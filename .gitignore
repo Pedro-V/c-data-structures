@@ -2,3 +2,5 @@
 *.vscode
 # ignorar todos os binarios
 *.out
+# ignorar arquivos e diretórios de teste
+*/teste/*
