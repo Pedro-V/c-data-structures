@@ -13,7 +13,7 @@ Cada mini-projeto vem com:
 * Um arquivo markdown explicando o problema e como a estrutura de dados é esperada se comportar
 * Um arquivo de input pequeno, o `light.input`;
 * Um arquivo de output correspondente ao `light.input`, chamado `light.output`;
-* Um arquivo de input mediano pra grande (0.2-0.5 GB), o `heavy.input`;
+* Um arquivo de input mediano pra grande (2 - 5 MB), o `heavy.input`;
 * O código fonte do programa em C, o `arquivo.c`.
 
 **O programa deve ser capaz de rodar esses inputs em menos de 1 segundo**. Se ele não for capaz de fazer isso, abra um issue detalhando o seu caso.
