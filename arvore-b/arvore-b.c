@@ -86,8 +86,6 @@ uint8_t set_value(arquivo new_arq, arquivo* parq, no* node, no** filho){
         *filho = 0;
         return 1;
     }
-    // fprintf(stdout, "%s\n%s\n", new_arq.hash, node->arquivos[pos].hash);
-    // fprintf(stdout, "%d e %d\n", pos, strncmp(new_arq.hash, node->arquivos[pos].hash, 32) > 0 && pos < node->n);
     for(pos = node->n; (strcmp(new_arq.hash, node->arquivos[pos].hash) < 0 && pos > 0); pos--);
     
     if (set_value(new_arq, parq, node->filhos[pos], filho)) {
